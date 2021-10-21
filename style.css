@@ -1,0 +1,38 @@
+body {
+    background-color: radial-gradient(90deg, green, white);
+}
+
+.grovvy {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#loginTitleText{
+        color: green;
+        font-style:italic;
+        text-align:center;
+        text-transform:uppercase; 
+} 
+
+#loginDivText{
+    color:lightgreen;
+    font-weight: bolder;
+}
+
+.blink_me {
+    animation: blinker 4s linear infinite;
+    }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+    }   
+    
+    .button{
+        width: 150px;
+        height:30;
+        background-color: lightgray;
+        border-radius: 10px;
+        border-color: lightgreen;
+    }
